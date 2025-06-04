@@ -1,13 +1,275 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Omar Hagoche</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libya Cities Dataset JSON</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="description" content="Comprehensive dataset of all Libyan cities, towns, villages, and hamlets with coordinates and multilingual support, fetched from OpenStreetMap via Overpass API.">
 </head>
-<body>
+<body class="bg-gradient-to-br from-green-50 to-red-50 min-h-screen">
+    <!-- Header -->
+    <header class="bg-white shadow-lg border-b-4 border-green-600">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-4">
+                    <div class="relative w-14 h-10 ">
+                        <!-- Red stripe -->
+                        <div class="absolute top-0 left-0 w-full h-1/4 bg-red-600 rounded-t-sm"></div>
+                        <!-- Black stripe -->
+                        <div class="absolute top-1/4 left-0 w-full h-1/2 bg-black"></div>
+                        <!-- Green stripe -->
+                        <div class="absolute bottom-0 left-0 w-full h-1/4 bg-green-600 rounded-b-sm"></div>
+                        <!-- Map icon in center -->
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <svg class="size-3.5 text-white drop-shadow-sm" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h1 class="text-3xl font-bold text-gray-800">Libya Cities Dataset</h1>
+                </div>
+                <a href="https://github.com/mosabsomaer/Libya-cities-dataset-JSON" 
+                   class="bg-gray-800 text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition-colors">
+                    <svg class="w-5 h-5 inline mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z"></path>
+                    </svg>
+                    Open on GitHub
+                </a>
+            </div>
+        </div>
+    </header>
 
-<a href="/LibyaCities/libya/cities.json">مدن ليبيا | Libyan Cities</a><br>
-<a href="/LibyaCities/libya/cities_simple.json">مدن ليبيا (بسيط) | Libyan Cities (simple)</a>
+    <!-- Hero Section -->
+    <section class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-5xl font-bold text-gray-800 mb-6">
+                Libyan Cities Dataset
+              </h2>
+              <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                A complete dataset of all Libyan cities, towns, villages, and hamlets with precise coordinates 
+                and multilingual support, exported from OpenStreetMap via the Overpass API.  
+                Designed to empower Libyan developers with open, reliable geodata for use in their projects.
+              </p>
+        </div>
+    </section>
 
+    <!-- download Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl font-bold text-center text-gray-800 mb-12">Download Datasets</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <a href="https://github.com/mosabsomaer/Libya-cities-dataset-JSON/blob/main/libya-datasets/all.json" 
+                    class="block bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow p-6 border-t-4 border-green-600">
+                    <div class="flex items-center justify-between mb-4">
+                        <h4 class="text-xl font-semibold text-gray-800">All Settlements</h4>
+                    </div>
+                    <p class="text-gray-600 mb-4">Complete dataset with all cities, towns, villages, and hamlets</p>
+                    <div class="text-sm text-gray-500">
+                        <span class="block">893 locations</span>
+                        <span class="block">~274KB</span>
+                    </div>
+                </a>
+
+                <a href="https://github.com/mosabsomaer/Libya-cities-dataset-JSON/blob/main/libya/cities.json" 
+                    class="block bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow p-6 border-t-4 border-blue-600">
+                    <div class="flex items-center justify-between mb-4">
+                        <h4 class="text-xl font-semibold text-gray-800">Cities</h4>
+                        <span class="bg-blue-600 text-white px-3 py-1 rounded-full text-sm">50K+ population</span>
+                    </div>
+                    <p class="text-gray-600">Major cities and urban centers across Libya</p>
+                    <p class="text-gray-600 mb-4">ex: Tripoli, Benghazi, Sirt</p>
+                    <div class="text-sm text-gray-500">
+                        <span class="block">40 cities</span>
+                        <span class="block">~37KB</span>
+                    </div>
+                </a>
+
+                <a href="https://github.com/mosabsomaer/Libya-cities-dataset-JSON/blob/main/libya/towns.json" 
+                    class="block bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow p-6 border-t-4 border-purple-600">
+                    <div class="flex items-center justify-between mb-4">
+                        <h4 class="text-xl font-semibold text-gray-800">Towns</h4>
+                        <span class="bg-purple-600 text-white px-3 py-1 rounded-full text-sm">10K+ population</span>
+                    </div>
+                    <p class="text-gray-600">Towns and smaller urban settlements</p>
+                    <p class="text-gray-600 mb-4">ex: Janzur, Shahhat, Musaid</p>
+                    <div class="text-sm text-gray-500">
+                        <span class="block">162 towns</span>
+                        <span class="block">~49KB</span>
+                    </div>
+                </a>
+
+                <a href="https://github.com/mosabsomaer/Libya-cities-dataset-JSON/blob/main/libya/villages.json" 
+                    class="block bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow p-6 border-t-4 border-yellow-600">
+                    <div class="flex items-center justify-between mb-4">
+                        <h4 class="text-xl font-semibold text-gray-800">Villages</h4>
+                        <span class="bg-yellow-600 text-white px-3 py-1 rounded-full text-sm">1K population</span>
+                    </div>
+                    <p class="text-gray-600">Villages and rural communities</p>
+                    <p class="text-gray-600 mb-4">ex: Zuwetina, Tmassah, Al Maqrun</p>
+                    <div class="text-sm text-gray-500">
+                        <span class="block">615 villages</span>
+                        <span class="block">~156KB</span>
+                    </div>
+                </a>
+
+                <a href="https://github.com/mosabsomaer/Libya-cities-dataset-JSON/blob/main/libya/hamlets.json" 
+                    class="block bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow p-6 border-t-4 border-red-600">
+                    <div class="flex items-center justify-between mb-4">
+                        <h4 class="text-xl font-semibold text-gray-800">Hamlets</h4>
+                        <span class="bg-red-600 text-white px-3 py-1 rounded-full text-sm">-500 population</span>
+                    </div>
+                    <p class="text-gray-600">Small settlements and hamlets</p>
+                    <p class="text-gray-600 mb-4">ex: gagum, Ras ATteen, Akramah</p>
+                    <div class="text-sm text-gray-500">
+                        <span class="block">76 hamlets</span>
+                        <span class="block">~20KB</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Example Section -->
+    <section class="py-10 bg-gray-900 text-white">
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl font-bold text-center mb-12">Data JSON Example</h3>
+            <div class="max-w-3xl mx-auto">
+                <div class="bg-gray-800 rounded-lg p-6 overflow-x-auto">
+                    <pre class="text-green-400"><code>
+{
+    "name": [
+        {
+            "en": "Benghazi",
+            "ar": "بنغازي",
+            "az": "Benqazi",
+            "be": "Бенгазі",
+            "bg": "Бенгази",
+            "bn": "বেনগাজি",
+            "br": "Benghazi",
+            "bs": "Bengazi",
+            "ca": "Bengasi",
+            "cs": "Benghází",
+            "cy": "Bengasi",
+            "da": "Benghazi",
+            more...
+        }
+    ],
+    "latitude": 32.1200168,
+    "longitude": 20.0812174,
+    "id": 31
+},
+                    </code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl font-bold text-center text-gray-800 mb-12">Key Features</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center p-6 bg-green-50 rounded-lg">
+                    <div class="w-12 h-12 bg-green-600 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2">Accurate Coordinates</h4>
+                    <p class="text-gray-600">Precise latitude and longitude data for every location fetched from trusted sources</p>
+                </div>
+                
+                <div class="text-center p-6 bg-blue-50 rounded-lg">
+                    <div class="w-12 h-12 bg-blue-600 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2">Multilingual Support</h4>
+                    <p class="text-gray-600">Location Names in Arabic, English, French, German, Spanish, Italian, Russian and more</p>
+                </div>
+                
+                <div class="text-center p-6 bg-purple-50 rounded-lg">
+                    <div class="w-12 h-12 bg-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2">Updated on Demand</h4>
+                    <p class="text-gray-600">
+                      The dataset is refreshed by running a dedicated script within this repository, ensuring precise control over the update process and data quality.
+                    </p>
+                    
+                </div>
+                
+                <div class="text-center p-6 bg-red-50 rounded-lg">
+                    <div class="w-12 h-12 bg-red-600 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2">Complete Libya map</h4>
+                    <p class="text-gray-600">Includes cities, towns, villages, and hamlets across Libya</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Source Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <h3 class="text-3xl font-bold text-center text-gray-800 mb-8">Data Source & Methodology</h3>
+                <div class="bg-white rounded-lg shadow-lg p-8">
+                    <div class="flex items-center mb-6">
+                        <img src="https://overpass-api.de/osm_logo.png" alt="OpenStreetMap" class="w-12 h-12 mr-4" onerror="this.style.display='none'">
+                        <div>
+                            <h4 class="text-xl font-semibold">Powered by OpenStreetMap & Overpass API</h4>
+                            <p class="text-gray-600">Fetching accurate, up-to-date geographic data</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4">
+                        Unlike the original repository which was manually maintained, this project automatically fetches 
+                        data from the <a href="https://overpass-api.de" class="text-blue-600 hover:underline">Overpass API</a>, 
+                        ensuring accuracy and regular updates. The Overpass API provides direct access to OpenStreetMap data, 
+                        allowing us to query for all settlements in Libya with their precise coordinates and multilingual names.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-row justify-between gap-8">
+                <div class="w-1/3">
+                    <h4 class="text-xl font-semibold mb-4">Data Usage</h4>
+                    <p class="text-gray-400 mb-4">
+                        This dataset is perfect for having any coordinates of any libyan city or town to be used in libyan applications and websites.
+                    </p>
+                    <div class="flex space-x-4">
+                        <span class="bg-green-600 text-white px-2 py-1 rounded text-xs">Open Source</span>
+                        <span class="bg-blue-600 text-white px-2 py-1 rounded text-xs">MIT License</span>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-xl font-semibold mb-4">Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="https://github.com/mosabsomaer/Libya-cities-dataset-JSON" class="hover:text-white">GitHub Repository</a></li>
+                        <li><a href="https://overpass-api.de" class="hover:text-white">Overpass API</a></li>
+                        <li><a href="https://www.openstreetmap.org" class="hover:text-white">OpenStreetMap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>Inspired by <a href="https://github.com/omarhagoche/LibyaCities" class="text-blue-400 hover:underline">@omarhagoche/LibyaCities</a> • 
+                Data sourced from OpenStreetMap via Overpass API • 
+                Made with ❤️ for the Libyan developer community</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
