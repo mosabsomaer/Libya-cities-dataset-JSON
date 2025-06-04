@@ -1,0 +1,57 @@
+[
+    {
+        "name": [
+            {
+                "ar": "صبراتة",
+                "en": "Sabratah"
+            }
+        ],
+        "latitude": 32.7704412,
+        "longitude": 12.4112027,
+        "id": 1001
+    },
+    {
+        "name": [
+            {
+                "ar": "الزنتان",
+                "en": "Al Zintan"
+            }
+        ],
+        "latitude": null,
+        "longitude": null,
+        "id": 1002
+    },
+    {
+        "name": [
+            {
+                "ar": "قمينس",
+                "en": "Qaminis"
+            }
+        ],
+        "latitude": null,
+        "longitude": null,
+        "id": 1006
+    },
+    {
+        "name": [
+            {
+                "ar": "أم الأرانب",
+                "en": "Umm al Aranib"
+            }
+        ],
+        "latitude": null,
+        "longitude": null,
+        "id": 1007
+    },
+    {
+        "name": [
+            {
+                "ar": "سيدي سعيد",
+                "en": "Sidi as Said"
+            }
+        ],
+        "latitude": null,
+        "longitude": null,
+        "id": 1008
+    }
+]

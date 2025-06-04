@@ -1,740 +1,1169 @@
 [
-  {
-    "id": 1,
-    "name": [{
-      "en": "Tripoli",
-      "ar": "طرابلس"
-    }],
-    "latitude": 32.8829717,
-    "longitude": 13.1708262
-  },
-  {
-    "id": 2,
-    "name": [{
-      "en": "Sabratah",
-      "ar": "صبراتة"
-    }],
-    "latitude": 32.7704412,
-    "longitude": 12.4112027
-  },
-  {
-    "id": 3,
-    "name": [{
-      "en": "Sabha",
-      "ar": "سبها"
-    }],
-    "latitude": 27.0388262,
-    "longitude": 14.4300409
-  },
-  {
-    "id": 4,
-    "name": [{
-      "en": "Khoms",
-      "ar": "الخمس"
-    }],
-    "latitude": 32.6315566,
-    "longitude": 14.2503308
-  },
-  {
-    "id": 5,
-    "name": [{
-      "en": "Derna",
-      "ar": "درنة"
-    }],
-    "latitude": 32.7620457,
-    "longitude": 22.6399179
-  },
-  {
-    "id": 6,
-    "name": [{
-      "en": "Sirte",
-      "ar": "سرت"
-    }],
-    "latitude": 31.1902572,
-    "longitude": 16.5703801
-  },
-  {
-    "id": 7,
-    "name": [{
-      "en": "Al Kufra",
-      "ar": "الكفرة"
-    }],
-    "latitude": 24.1821207,
-    "longitude": 23.3014144
-  },
-  {
-    "id": 8,
-    "name": [{
-      "en": "Al Marj",
-      "ar": "المرج"
-    }],
-    "latitude": 32.4985432,
-    "longitude": 20.8200552
-  },
-  {
-    "id": 9,
-    "name": [{
-      "en": "Yafran",
-      "ar": "يفرن"
-    }],
-    "latitude": 32.0538400,
-    "longitude": 12.5357435
-  },
-  {
-    "id": 10,
-    "name": [{
-      "en": "Tarhuna",
-      "ar": "ترهونة"
-    }],
-    "latitude": 32.4282570,
-    "longitude": 13.6414789
-  },
-  {
-    "id": 11,
-    "name": [{
-      "en": "Msallata",
-      "ar": "مسلاتة"
-    }],
-    "latitude": 32.5835949,
-    "longitude": 14.0366220
-  },
-  {
-    "id": 12,
-    "name": [{
-      "en": "Benghazi",
-      "ar": "بنغازي"
-    }],
-    "latitude": 32.0814853,
-    "longitude": 19.994915
-  },
-  {
-    "id": 13,
-    "name": [{
-      "en": "Bani Walid",
-      "ar": "بني وليد"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 14,
-    "name": [{
-      "en": "Surman",
-      "ar": "صرمان"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 15,
-    "name": [{
-      "en": "Al Jumayl",
-      "ar": "الجميل"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 16,
-    "name": [{
-      "en": "Al Zintan",
-      "ar": "الزنتان"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 17,
-    "name": [{
-      "en": "Zuwara",
-      "ar": "زوارة"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 18,
-    "name": [{
-      "en": "Shahhat",
-      "ar": "شحات"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 19,
-    "name": [{
-      "en": "Ubari",
-      "ar": "أوباري"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 20,
-    "name": [{
-      "en": "Al Abyar",
-      "ar": "الأبيار"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 21,
-    "name": [{
-      "en": "Zaltan",
-      "ar": "زلطن"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 22,
-    "name": [{
-      "en": "Al Qubah",
-      "ar": "القبة"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 23,
-    "name": [{
-      "en": "Misrata",
-      "ar": "مصراتة"
-    }],
-    "latitude": 32.3154902,
-    "longitude": 14.9571463
-  },
-  {
-    "id": 24,
-    "name": [{
-      "en": "Tawergha",
-      "ar": "تاورغاء"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 25,
-    "name": [{
-      "en": "Al Maya",
-      "ar": "الماية"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 26,
-    "name": [{
-      "en": "Murzuk",
-      "ar": "مرزق"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 27,
-    "name": [{
-      "en": "Brega",
-      "ar": "البريقة"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 28,
-    "name": [{
-      "en": "Hun",
-      "ar": "هون"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 29,
-    "name": [{
-      "en": "Jalu",
-      "ar": "جالو"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 30,
-    "name": [{
-      "en": "Nalut",
-      "ar": "نالوت"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 31,
-    "name": [{
-      "en": "Suluq",
-      "ar": "سلوق"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 32,
-    "name": [{
-      "en": "Mizda",
-      "ar": "مزدة"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 33,
-    "name": [{
-      "en": "Ra's Lanuf",
-      "ar": "راس لانوف"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 34,
-    "name": [{
-      "en": "Az-Zāwiyah",
-      "ar": "الزاوية"
-    }],
-    "latitude": 32.7478019,
-    "longitude": 12.6981574
-  },
-  {
-    "id": 35,
-    "name": [{
-      "en": "Al Urban",
-      "ar": "العربان"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 36,
-    "name": [{
-      "en": "Waddan",
-      "ar": "ودان"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 37,
-    "name": [{
-      "en": "Ajaylat",
-      "ar": "العجيلات"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 38,
-    "name": [{
-      "en": "Tocra",
-      "ar": "توكرة"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 39,
-    "name": [{
-      "en": "Brak",
-      "ar": "براك"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 40,
-    "name": [{
-      "en": "Gadamis",
-      "ar": "غدامس"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 41,
-    "name": [{
-      "en": "Ghat",
-      "ar": "غات"
-    }],
-    "latitude": 24.9637821,
-    "longitude": 10.1763321
-  },
-  {
-    "id": 42,
-    "name": [{
-      "en": "Awjilah",
-      "ar": "أوجلة"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 43,
-    "name": [{
-      "en": "Rebiana",
-      "ar": "ربيانة"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 44,
-    "name": [{
-      "en": "Zliten",
-      "ar": "زليتن"
-    }],
-    "latitude": 32.2871064,
-    "longitude": 14.2291436
-  },
-  {
-    "id": 45,
-    "name": [{
-      "en": "Fersta",
-      "ar": "فرسطاء"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 46,
-    "name": [{
-      "en": "Umm al Rizam",
-      "ar": "أم الرزم"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 47,
-    "name": [{
-      "en": "Ar Rayaniya",
-      "ar": "الرياينة"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 48,
-    "name": [{
-      "en": "Teji",
-      "ar": "تيجي"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 49,
-    "name": [{
-      "en": "Qaminis",
-      "ar": "قمينس"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 50,
-    "name": [{
-      "en": "Al Qatrun",
-      "ar": "القطرون"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 51,
-    "name": [{
-      "en": "Benina",
-      "ar": "بنينا"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 52,
-    "name": [{
-      "en": "Kikla",
-      "ar": "ككلة"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 53,
-    "name": [{
-      "en": "Al Rheibat",
-      "ar": "الرحيبات"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 54,
-    "name": [{
-      "en": "Sokna",
-      "ar": "سوكنة"
-    }],
-    "latitude": 29.0605921,
-    "longitude": 15.7925033
-  },
-  {
-    "id": 55,
-    "name": [{
-      "en": "Bayda",
-      "ar": "البيضاء"
-    }],
-    "latitude": 32.7619599,
-    "longitude": 21.6764808
-  },
-  {
-    "id": 56,
-    "name": [{
-      "en": "Massa",
-      "ar": "مسة"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 57,
-    "name": [{
-      "en": "Bin Jawad",
-      "ar": "بن جواد"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 58,
-    "name": [{
-      "en": "Umm al Aranib",
-      "ar": "أم الأرانب"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 59,
-    "name": [{
-      "en": "Jadu",
-      "ar": "جادو"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 60,
-    "name": [{
-      "en": "Arrabita",
-      "ar": "الرابطة"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 61,
-    "name": [{
-      "en": "Al Abraq",
-      "ar": "الأبرق"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 62,
-    "name": [{
-      "en": "Sidi as Said",
-      "ar": "سيدي سعيد"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 63,
-    "name": [{
-      "en": "Ar Rajban",
-      "ar": "الرجبان"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 64,
-    "name": [{
-      "en": "Zella",
-      "ar": "زلة"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 65,
-    "name": [{
-      "en": "Martuba",
-      "ar": "مرتوبة"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 66,
-    "name": [{
-      "en": "Ajdabiya",
-      "ar": "اجدابيا"
-    }],
-    "latitude": 29.9858633,
-    "longitude": 19.149881
-  },
-  {
-    "id": 67,
-    "name": [{
-      "en": "Traghan",
-      "ar": "تراغن"
-    }],
-    "latitude": 25.9368579,
-    "longitude": 14.4275808
-  },
-  {
-    "id": 68,
-    "name": [{
-      "en": "Ad Dirsiyah",
-      "ar": "الدرسية"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 69,
-    "name": [{
-      "en": "Al Bayyada",
-      "ar": "البياضه"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 70,
-    "name": [{
-      "en": "Qayqab",
-      "ar": "القيقب"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 71,
-    "name": [{
-      "en": "Janzur",
-      "ar": "جنزور"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 72,
-    "name": [{
-      "en": "Musaid",
-      "ar": "مساعد"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 73,
-    "name": [{
-      "en": "Taknis",
-      "ar": "تاكنس"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 74,
-    "name": [{
-      "en": "Susah",
-      "ar": "سوسة"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 75,
-    "name": [{
-      "en": "Tazirbu",
-      "ar": "تازر بو"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 76,
-    "name": [{
-      "en": "Farzougha",
-      "ar": "فرزوغة"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 77,
-    "name": [{
-      "en": "Gharyan",
-      "ar": "غريان"
-    }],
-    "latitude": 32.1684974,
-    "longitude": 12.9982616
-  },
-  {
-    "id": 78,
-    "name": [{
-      "en": "Bi'r al Ashhab",
-      "ar": "بئر الأشهب"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 79,
-    "name": [{
-      "en": "Riqdalin",
-      "ar": "رقدالين"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 80,
-    "name": [{
-      "en": "Al Jawf",
-      "ar": "الجوف"
-    }],
-    "latitude": "",
-    "longitude": ""
-  },
-  {
-    "id": 81,
-    "name": [{
-      "en": "Tobruk",
-      "ar": "طبرق"
-    }],
-    "latitude": 32.0731577,
-    "longitude": 23.9201712
-  },
-  {
-    "id": 82,
-    "name": [{
-      "en": "Al Birkat",
-      "ar": "البركت"
-    }],
-    "latitude": 24.8948320,
-    "longitude": 10.1846336
-  }
+    {
+        "name": [
+            {
+                "ar": "غات",
+                "ca": "Ghat",
+                "de": "Ghat",
+                "en": "Ghat",
+                "eo": "Gat",
+                "es": "Ghat",
+                "fi": "Ghat",
+                "fr": "Ghat",
+                "fy": "Ghat",
+                "hu": "Gát",
+                "it": "Gat",
+                "ja": "ガート",
+                "ka": "ღათი",
+                "kab": "Ɣat",
+                "ko": "가트",
+                "lt": "Gatas",
+                "nl": "Ghat",
+                "pl": "Ghat",
+                "pt": "Gate",
+                "ro": "Ghat",
+                "ru": "Гат",
+                "sl": "Gat",
+                "sv": "Ghat",
+                "tr": "Gat",
+                "uk": "Гат",
+                "vi": "Ghat",
+                "vo": "Gat",
+                "zh": "加特",
+                "zu": "Ghat"
+            }
+        ],
+        "latitude": 24.9626299,
+        "longitude": 10.1797167,
+        "id": 1
+    },
+    {
+        "name": [
+            {
+                "ar": "أوباري",
+                "azb": "اوباری",
+                "bg": "Аубари",
+                "de": "Ubari",
+                "en": "Awbari",
+                "eo": "Aŭbari",
+                "es": "Awbari",
+                "fa": "اوباری",
+                "fr": "Oubari",
+                "it": "Ubari",
+                "ka": "ავბარი",
+                "kab": "Ubari",
+                "ko": "우바리",
+                "ks": "اوباری",
+                "lt": "Ubaris",
+                "pl": "Aubari",
+                "pt": "Awbari",
+                "ro": "Ubari",
+                "ru": "Авбари",
+                "tr": "Ubari",
+                "uk": "Аубарі",
+                "ur": "اوباری",
+                "vi": "Ubari",
+                "vo": "Äubari"
+            }
+        ],
+        "latitude": 26.5909391,
+        "longitude": 12.7695658,
+        "id": 2
+    },
+    {
+        "name": [
+            {
+                "ar": "مدينة جرمة",
+                "de": "Garama",
+                "en": "Germa",
+                "es": "Germa",
+                "fr": "Germa",
+                "it": "Germa"
+            }
+        ],
+        "latitude": 26.5284969,
+        "longitude": 13.0696338,
+        "id": 3
+    },
+    {
+        "name": [
+            {
+                "ar": "الغريفة",
+                "de": "Al Ghurayfah",
+                "en": "Ghurayfah",
+                "fr": "Ghurayfah",
+                "it": "Al-Gurayfah"
+            }
+        ],
+        "latitude": 26.5258867,
+        "longitude": 13.0099491,
+        "id": 4
+    },
+    {
+        "name": [
+            {
+                "ar": "مرزق",
+                "azb": "مرزق",
+                "de": "Murzuk",
+                "en": "Murzuq",
+                "es": "Murzuq",
+                "fa": "مرزق",
+                "fr": "Mourzouq",
+                "it": "Murzuch",
+                "kab": "Murzuq",
+                "ko": "무르주크",
+                "ks": "مرزق",
+                "pl": "Murzuk",
+                "ru": "Марзук",
+                "uk": "Марзук",
+                "ur": "مرزق"
+            }
+        ],
+        "latitude": 25.9140852,
+        "longitude": 13.9197199,
+        "id": 5
+    },
+    {
+        "name": [
+            {
+                "ar": "سبها",
+                "azb": "سبها",
+                "de": "Sabha",
+                "en": "Sabha",
+                "es": "Sabha",
+                "et": "Şabḩā",
+                "fa": "سبها",
+                "fr": "Sabha",
+                "it": "Seba",
+                "ko": "세바",
+                "ku": "Sabha",
+                "lt": "Sabha",
+                "ota": "سبها",
+                "pl": "Sabha",
+                "ru": "Себха",
+                "tr": "Sabha",
+                "uk": "Себха",
+                "ur": "سبها"
+            }
+        ],
+        "latitude": 27.0364864,
+        "longitude": 14.4290398,
+        "id": 6
+    },
+    {
+        "name": [
+            {
+                "af": "Ghadames",
+                "ar": "غدامس",
+                "az": "Qədamis",
+                "ba": "Гадамес",
+                "be": "Гадамес",
+                "bg": "Гадамес",
+                "bn": "ঘাদামিস",
+                "ca": "Gadames",
+                "cs": "Ghadames",
+                "cy": "Gadames",
+                "da": "Ghadames",
+                "de": "Ghadames",
+                "el": "Γκανταμές",
+                "en": "Ghadames",
+                "eo": "Ghadames",
+                "es": "Gadamés",
+                "eu": "Ghadames",
+                "fi": "Ghadamés",
+                "fr": "Ghadamès",
+                "he": "רדאמס",
+                "hr": "Gadames",
+                "hu": "Gadámesz",
+                "id": "Ghadames",
+                "it": "Gadames",
+                "ja": "ガダミス",
+                "ka": "ღადამესი",
+                "kab": "ɣdames",
+                "ko": "가다메스",
+                "lt": "Gadamesas",
+                "my": "ဂဒါးမစ်မြို့",
+                "nb": "Ghadames",
+                "ne": "घदामेस",
+                "nl": "Ghadames",
+                "nn": "Ghadamis",
+                "oc": "Gadames",
+                "pl": "Ghadamis",
+                "pt": "Gadamés",
+                "ro": "Ghadames",
+                "ru": "Гадамес",
+                "sr": "Гадамес",
+                "sv": "Ghadames",
+                "tr": "Gadames",
+                "uk": "Гадамес",
+                "vi": "Ghadames",
+                "vo": "Gadamis",
+                "zh": "古达米斯",
+                "zu": "Ghadames"
+            }
+        ],
+        "latitude": 30.1258404,
+        "longitude": 9.4900658,
+        "id": 7
+    },
+    {
+        "name": [
+            {
+                "ar": "نالوت",
+                "de": "Nalut",
+                "en": "Nalut",
+                "es": "Nalut",
+                "fr": "Nalout",
+                "kab": "Nalut",
+                "pl": "Nalut",
+                "ru": "Налут",
+                "uk": "Налут"
+            }
+        ],
+        "latitude": 31.8637865,
+        "longitude": 10.9827903,
+        "id": 8
+    },
+    {
+        "name": [
+            {
+                "ar": "ترهونة",
+                "az": "Tarhuna",
+                "be": "Тархуна",
+                "cs": "Tarhúna",
+                "en": "Tarhuna",
+                "eo": "Tarhuna",
+                "es": "Tarhuna",
+                "fi": "Tarhuna",
+                "fr": "Tarhounah",
+                "it": "Tarhuna",
+                "ka": "ტარჰუანა",
+                "kab": "Tarhuna",
+                "lt": "Tarhuna",
+                "nb": "Tarhuna",
+                "pl": "Tarhuna",
+                "pt": "Taruna",
+                "ro": "Tarhoona",
+                "ru": "Тархуна",
+                "sv": "Tarhuna",
+                "vi": "Tarhuna",
+                "vo": "Tärhunä",
+                "zu": "Tarhuna"
+            }
+        ],
+        "latitude": 32.4345861,
+        "longitude": 13.6350687,
+        "id": 9
+    },
+    {
+        "name": [
+            {
+                "ar": "الخمس",
+                "azb": "الخمس",
+                "de": "al-Chums",
+                "en": "Khoms",
+                "eo": "Al Ĥums",
+                "et": "Al-Khums",
+                "fa": "الخمس",
+                "fr": "Khoms",
+                "it": "Homs",
+                "kab": "Lxums",
+                "la": "Leptis Magna",
+                "pl": "Al-Chums",
+                "ru": "Хомс",
+                "ur": "خمس"
+            }
+        ],
+        "latitude": 32.652183,
+        "longitude": 14.26801,
+        "id": 10
+    },
+    {
+        "name": [
+            {
+                "ar": "الزاوية",
+                "de": "al-Sawija",
+                "en": "Al Zawiyah",
+                "et": "Az-Zāwiyah",
+                "eu": "Zawiya",
+                "fa": "زاویه",
+                "fr": "Zaouïa",
+                "it": "Zauia",
+                "kab": "Zzaweyya",
+                "pl": "Az-Zawija",
+                "ru": "Эз-Завия",
+                "uk": "Ез-Завія",
+                "ur": "زاویہ"
+            }
+        ],
+        "latitude": 32.7596665,
+        "longitude": 12.7355967,
+        "id": 11
+    },
+    {
+        "name": [
+            {
+                "ar": "زوارة",
+                "de": "Zuara",
+                "en": "Zuara",
+                "es": "Zuara",
+                "et": "Zuwārah",
+                "fr": "Zouara",
+                "it": "Zuara",
+                "jbn": "ⵜⴰⵎⵓⵔⵜ ⵏ ⵡⴰⵜ ⵡⵉⵍⵍⵓⵍ",
+                "kab": "At Willul",
+                "lt": "Zuvara",
+                "pl": "Zuwara",
+                "ru": "Зуара",
+                "uk": "Зуара"
+            }
+        ],
+        "latitude": 32.9327858,
+        "longitude": 12.0806069,
+        "id": 12
+    },
+    {
+        "name": [
+            {
+                "ar": "إجدابيا",
+                "az": "Əcdəbiyyə",
+                "be": "Адждабія",
+                "bg": "Адждабия",
+                "ca": "Agedabia",
+                "cs": "Adžedábíja",
+                "cy": "Agedabia",
+                "da": "Ajdabiya",
+                "de": "Adschdabiya",
+                "en": "Ajdabiya",
+                "eo": "Aĝdabija",
+                "es": "Ajdabiya",
+                "et": "Ajdābiyā",
+                "eu": "Ajdabiya",
+                "fa": "اجدابیا",
+                "fi": "Ajdabiya",
+                "fr": "Ajdabiya",
+                "he": "אג'דאביא",
+                "hu": "Adzsdábija",
+                "hy": "Աժդաբիա",
+                "id": "Ajdabiya",
+                "it": "Agedabia",
+                "ja": "アジュダービヤー",
+                "ka": "აჯდაბია",
+                "kab": "Ajdabiya",
+                "ko": "아지다비야",
+                "la": "Corniclanum",
+                "lt": "Adždabija",
+                "ms": "Ajdabiya",
+                "nb": "Agedabia",
+                "nl": "Ajdabiya",
+                "pl": "Adżdabija",
+                "pt": "Agedábia",
+                "ru": "Адждабия",
+                "sc": "Agedabia",
+                "sk": "Adždábijá",
+                "sr": "Аџдабија",
+                "sv": "Ajdabiya",
+                "tr": "Ecdebiye",
+                "uk": "Адждабія",
+                "vi": "Ajdabiya",
+                "vo": "Äcdabiya",
+                "zh": "艾季达比耶",
+                "zu": "Ajdabiya"
+            }
+        ],
+        "latitude": 30.7549616,
+        "longitude": 20.2233582,
+        "id": 13
+    },
+    {
+        "name": [
+            {
+                "ar": "طبرق",
+                "az-Arab": "طبرق",
+                "azb": "طبرق",
+                "de": "Tobruk",
+                "en": "Tobruk",
+                "es": "Tobruk",
+                "et": "Ţubruq",
+                "fa": "طبرق",
+                "fi": "Tobruk",
+                "fr": "Tobrouk",
+                "it": "Tobruch",
+                "kab": "Ṭubruq",
+                "ks": "طبرق",
+                "lt": "Tubrukas",
+                "nl": "Tobroek",
+                "ota": "طبرق",
+                "pl": "Tobruk",
+                "ru": "Тобрук",
+                "sk": "Tobruk",
+                "uk": "Тобрук",
+                "ur": "طبرق"
+            }
+        ],
+        "latitude": 32.0773764,
+        "longitude": 23.9599988,
+        "id": 14
+    },
+    {
+        "name": [
+            {
+                "ar": "البيضاء",
+                "de": "al-Baida",
+                "en": "Bayda",
+                "et": "Al-Bayḑā’",
+                "eu": "Baida",
+                "fi": "Beida",
+                "fr": "El Beïda",
+                "kab": "Lbayḍa",
+                "pl": "Al-Bajda",
+                "ru": "Аль-Байда",
+                "uk": "Аль-Байда",
+                "zh": "贝达"
+            }
+        ],
+        "latitude": 32.7609529,
+        "longitude": 21.7577175,
+        "id": 15
+    },
+    {
+        "name": [
+            {
+                "ar": "درنة",
+                "azb": "درنه",
+                "de": "Darna",
+                "el": "Ντέρνα",
+                "en": "Darnah",
+                "es": "Derna",
+                "fa": "درنه",
+                "fr": "Derna",
+                "it": "Derna",
+                "ks": "درنہ",
+                "ota": "درنه",
+                "pl": "Darna",
+                "pnb": "درنہ",
+                "ru": "Дерна",
+                "tr": "Derne",
+                "ur": "درنہ"
+            }
+        ],
+        "latitude": 32.7593795,
+        "longitude": 22.6383195,
+        "id": 16
+    },
+    {
+        "name": [
+            {
+                "ar": "سرت",
+                "azb": "سرت",
+                "de": "Surt",
+                "el": "Σύρτη",
+                "en": "Sirte",
+                "es": "Sirte",
+                "fa": "سرت",
+                "fr": "Syrte",
+                "he": "סירת",
+                "it": "Sirte",
+                "kab": "Surt",
+                "ks": "سرت",
+                "pl": "Syrta",
+                "ru": "Сирт",
+                "uk": "Сирт",
+                "ur": "سرت"
+            }
+        ],
+        "latitude": 31.2059625,
+        "longitude": 16.5836206,
+        "id": 17
+    },
+    {
+        "name": [
+            {
+                "ar": "صرمان",
+                "bn": "সুরমান",
+                "cs": "Surmán",
+                "de": "Surman",
+                "el": "Σούρμαν",
+                "en": "Surman",
+                "fa": "سورمان",
+                "fr": "Sourman",
+                "he": "סורמן",
+                "hi": "सुर्मन",
+                "hy": "Սուրման",
+                "it": "Sorman",
+                "ja": "サーマン",
+                "kab": "Ṣerman",
+                "ko": "서먼",
+                "ru": "Сурман",
+                "sk": "Surmán",
+                "th": "เซอร์แมน",
+                "tr": "surman",
+                "uk": "Сурман",
+                "ur": "سورمن",
+                "vi": "Người Surman",
+                "zh": "蘇爾曼"
+            }
+        ],
+        "latitude": 32.7549766,
+        "longitude": 12.5743485,
+        "id": 18
+    },
+    {
+        "name": [
+            {
+                "ar": "القطرون",
+                "de": "Al-Qatrun",
+                "en": "Qatrun",
+                "es": "Al Qatrun",
+                "fi": "Al-Qatrun",
+                "fr": "Gatrone",
+                "it": "El-Gatrun",
+                "nl": "Al Qatrun",
+                "pl": "Al-Katrun",
+                "sv": "Al Qaţrūn",
+                "vi": "Al Qatrun"
+            }
+        ],
+        "latitude": 24.8894679,
+        "longitude": 14.5315003,
+        "id": 19
+    },
+    {
+        "name": [
+            {
+                "ar": "مسلاتة المركز",
+                "en": "Central Msallata",
+                "fr": "Msallata centrale"
+            }
+        ],
+        "latitude": 32.579922,
+        "longitude": 14.0417371,
+        "id": 20
+    },
+    {
+        "name": [
+            {
+                "ar": "المرج",
+                "arz": "المرج (تجمع سكان فى شعبيه المرج)",
+                "az": "Əl Məric",
+                "azb": "مرج (لیبی)",
+                "ca": "Al Marj",
+                "ceb": "Al Marj (kapital sa distrito)",
+                "cs": "Mardž",
+                "de": "Al Marj",
+                "en": "Marj",
+                "eo": "Al Marĝ",
+                "es": "Al Marj",
+                "fa": "مرج (لیبی)",
+                "fr": "Al Marj",
+                "hy": "Ալ-Մարջ",
+                "it": "Barce",
+                "ja": "マルジュ",
+                "ka": "ელ-მარჯი",
+                "kab": "Lmarj",
+                "ko": "마르지",
+                "pl": "Al-Mardż",
+                "pt": "Marje",
+                "ro": "Al Marj",
+                "ru": "Эль-Мардж",
+                "sc": "El Merj",
+                "sco": "Al Marj",
+                "sh": "Mardž",
+                "uk": "Ель-Мардж",
+                "ur": "مرج",
+                "vi": "Marj",
+                "vo": "Märc",
+                "zh": "迈尔季",
+                "zh-Hant": "迈尔季",
+                "zu": "Marj"
+            }
+        ],
+        "latitude": 32.4853167,
+        "longitude": 20.832738,
+        "id": 21
+    },
+    {
+        "name": [
+            {
+                "ar": "جالو",
+                "en": "Jalu",
+                "fr": "Oasis de Jalo",
+                "it": "Gialo",
+                "ko": "잘루"
+            }
+        ],
+        "latitude": 29.0331149,
+        "longitude": 21.5482209,
+        "id": 22
+    },
+    {
+        "name": [
+            {
+                "af": "Bani Walid",
+                "ar": "بني وليد",
+                "az": "Beni-Valid",
+                "be": "Бені-Валід",
+                "bg": "Бани Уалид",
+                "cs": "Baní Walíd",
+                "de": "Bani Walid",
+                "en": "Bani Walid",
+                "eo": "Beni Valid",
+                "es": "Bani Walid",
+                "fi": "Bani Walid",
+                "fr": "Beni Oualid",
+                "hu": "Bani Valíd",
+                "id": "Beni Ulid",
+                "it": "Beni Ulid",
+                "ja": "バニワリード",
+                "ka": "ბანი-ვალიდი",
+                "kab": "Bni Walid",
+                "ko": "바니왈리드",
+                "lt": "Bani Validas",
+                "nl": "Bani Walid",
+                "pl": "Bani Walid",
+                "pt": "Bani Ualide",
+                "ro": "Bani Walid",
+                "ru": "Бени-Валид",
+                "sr": "Бани Валид",
+                "sv": "Banī Walīd",
+                "tr": "Beni Velid",
+                "uk": "Бені-Валід",
+                "vi": "Bani Walid",
+                "vo": "Bäni Välid",
+                "zh": "巴尼·瓦利德",
+                "zu": "Bani Walid"
+            }
+        ],
+        "latitude": 31.7584309,
+        "longitude": 14.0146898,
+        "id": 23
+    },
+    {
+        "name": [
+            {
+                "ar": "العجيلات",
+                "en": "Al Ajyaylat",
+                "fr": "Adjelat",
+                "it": "El-Agelat"
+            }
+        ],
+        "latitude": 32.7577581,
+        "longitude": 12.3773801,
+        "id": 24
+    },
+    {
+        "name": [
+            {
+                "ar": "رقدالين",
+                "en": "Riqdalin",
+                "fr": "Regdaline",
+                "it": "Regdalin"
+            }
+        ],
+        "latitude": 32.8863864,
+        "longitude": 11.9870728,
+        "id": 25
+    },
+    {
+        "name": [
+            {
+                "ar": "زلطن",
+                "de": "Zelten",
+                "en": "Zulten",
+                "fr": "Zelten",
+                "it": "Zaltan"
+            }
+        ],
+        "latitude": 32.9461461,
+        "longitude": 11.866804,
+        "id": 26
+    },
+    {
+        "name": [
+            {
+                "ar": "زليتن",
+                "de": "Zliten",
+                "en": "Zliten",
+                "es": "Zliten",
+                "et": "Zlīţan",
+                "fr": "Zliten",
+                "kab": "Zliten"
+            }
+        ],
+        "latitude": 32.467562,
+        "longitude": 14.56564,
+        "id": 27
+    },
+    {
+        "name": [
+            {
+                "ar": "هون",
+                "arz": "هون",
+                "az-Arab": "هون",
+                "azb": "هون",
+                "de": "Hun",
+                "en": "Hun",
+                "es": "Hun",
+                "fa": "هون",
+                "fi": "Hun",
+                "fr": "Houn",
+                "it": "Hun",
+                "ja": "フーン",
+                "ka": "ჰუნი",
+                "kab": "Hun",
+                "ko": "훈",
+                "pl": "Hun",
+                "pt": "Hune",
+                "ru": "Хун",
+                "sco": "Hun",
+                "sh": "Hun",
+                "sr": "Хун",
+                "sv": "Hūn",
+                "tr": "Hun",
+                "uk": "Хун",
+                "ur": "ہون",
+                "vi": "Houn",
+                "vo": "Hun",
+                "zh": "胡恩",
+                "zu": "Hun"
+            }
+        ],
+        "latitude": 29.1245649,
+        "longitude": 15.9402605,
+        "id": 28
+    },
+    {
+        "name": [
+            {
+                "ar": "الزهراء",
+                "en": "Al-Zahra",
+                "fr": "Al-Zahra",
+                "it": "Al-Zahra"
+            }
+        ],
+        "latitude": 32.6780313,
+        "longitude": 12.8725109,
+        "id": 29
+    },
+    {
+        "name": [
+            {
+                "ar": "ودان",
+                "az": "Vaddan",
+                "azb": "ودان",
+                "de": "Waddan",
+                "en": "Waddan",
+                "es": "Waddan",
+                "fa": "ودان",
+                "fr": "Waddan",
+                "it": "Ueddan",
+                "ka": "უადანი",
+                "kab": "Weddan",
+                "ks": "ودان",
+                "ota": "ودان",
+                "pnb": "ودان",
+                "ps": "ودان",
+                "pt": "Uadane",
+                "sv": "Waddān",
+                "uk": "Ваддай",
+                "ur": "ودان",
+                "zu": "Waddan"
+            }
+        ],
+        "latitude": 29.1613826,
+        "longitude": 16.141311,
+        "id": 30
+    },
+    {
+        "name": [
+            {
+                "af": "Benghazi",
+                "ar": "بنغازي",
+                "az": "Benqazi",
+                "be": "Бенгазі",
+                "bg": "Бенгази",
+                "bn": "বেনগাজি",
+                "br": "Benghazi",
+                "bs": "Bengazi",
+                "ca": "Bengasi",
+                "cs": "Benghází",
+                "cy": "Bengasi",
+                "da": "Benghazi",
+                "de": "Bengasi",
+                "el": "Βεγγάζη",
+                "en": "Benghazi",
+                "eo": "Bengazi",
+                "es": "Bengasi",
+                "et": "Benghazi",
+                "eu": "Bengazi",
+                "fa": "بنغازی",
+                "fi": "Bengasi",
+                "fr": "Benghazi",
+                "fy": "Bengazy",
+                "ga": "Benghazi",
+                "ha": "Benghazi",
+                "he": "בנגאזי",
+                "hi": "बेनगाज़ी",
+                "hr": "Bengazi",
+                "hu": "Bengázi",
+                "hy": "Բենգազի",
+                "id": "Benghazi",
+                "ie": "Bengasi",
+                "io": "Benghazi",
+                "is": "Benghazi",
+                "it": "Bengasi",
+                "ja": "ベンガジ",
+                "ka": "ბენღაზი",
+                "kab": "Benɣazi",
+                "kk": "Бенгази",
+                "ko": "벵가지",
+                "la": "Berenice",
+                "lt": "Bengazis",
+                "lv": "Bengāzī",
+                "mr": "बेनगाझी",
+                "ms": "Benghazi",
+                "nb": "Benghazi",
+                "nl": "Benghazi",
+                "nn": "Benghazi",
+                "oc": "Bengazi",
+                "os": "Бенгази",
+                "pa": "ਬਨਗ਼ਾਜ਼ੀ",
+                "pl": "Bengazi",
+                "ps": "بنغازی",
+                "pt": "Bengasi",
+                "ro": "Benghazi",
+                "ru": "Бенгази",
+                "sk": "Bengázi",
+                "sl": "Bengazi",
+                "sq": "Bengazi",
+                "sr": "Бенгази",
+                "sv": "Benghazi",
+                "sw": "Benghazi",
+                "ta": "பங்காசி",
+                "tg": "Вилояти Бенғази",
+                "th": "เบงกาซี",
+                "tr": "Bingazi",
+                "uk": "Бенгазі",
+                "ur": "بنغازی",
+                "uz": "Bingʻozi",
+                "vi": "Benghazi",
+                "vo": "Bängasi",
+                "zh": "班加西",
+                "zh-Hans": "班加西",
+                "zu": "Benghazi"
+            }
+        ],
+        "latitude": 32.1200168,
+        "longitude": 20.0812174,
+        "id": 31
+    },
+    {
+        "name": [
+            {
+                "ar": "الأبيار",
+                "azb": "الابیار",
+                "en": "Al Abyar",
+                "es": "Al Abyar",
+                "fa": "الابیار",
+                "fr": "Al Abyar",
+                "it": "Al Abyar",
+                "kab": "Lebyar"
+            }
+        ],
+        "latitude": 32.1896453,
+        "longitude": 20.5945086,
+        "id": 32
+    },
+    {
+        "name": [
+            {
+                "ar": "الأصابعة",
+                "az": "Əsbiyyə",
+                "en": "Asbi'a",
+                "fr": "Al Asabia",
+                "ka": "ასბია",
+                "pt": "Assaba"
+            }
+        ],
+        "latitude": 32.0351904,
+        "longitude": 12.8719462,
+        "id": 33
+    },
+    {
+        "name": [
+            {
+                "ar": "غريان",
+                "az": "Qaryan",
+                "be": "Гар’ян",
+                "ber": "ⵖⵔⵢⴰⵏ",
+                "cs": "Gharján",
+                "de": "Garian",
+                "en": "Gharyan",
+                "eo": "Garjan",
+                "es": "Garian",
+                "et": "Gharyān",
+                "fi": "Gharyan",
+                "fr": "Gharyan",
+                "it": "Garian",
+                "ja": "ガリヤン",
+                "ka": "ღარიანი",
+                "kab": "Ɣeryan",
+                "ko": "가리안",
+                "lt": "Garjanas",
+                "nl": "Gharyan",
+                "pl": "Gharjan",
+                "pt": "Gariã",
+                "ro": "Ghiryan",
+                "ru": "Гарьян",
+                "sv": "Gharyan",
+                "tr": "Geryan",
+                "uk": "Ґар'ян",
+                "vi": "Gharyan",
+                "vo": "Garyan",
+                "zh": "盖尔扬",
+                "zu": "Gharyan"
+            }
+        ],
+        "latitude": 32.1715873,
+        "longitude": 13.0211451,
+        "id": 34
+    },
+    {
+        "name": [
+            {
+                "ar": "قصر بن غشير",
+                "be": "Каср-Бен-Гашыр",
+                "de": "Qasr bin Ghaschir",
+                "en": "Qasr Bin Ghashir",
+                "fr": "Kasr ben Ghachir",
+                "it": "Castillo Benito",
+                "ka": "ქასრ-ბენ-ღაშირი",
+                "pt": "Alcácer ibne Gaxir",
+                "ru": "Бин-Гашир",
+                "zu": "Qasr bin Ghashir"
+            }
+        ],
+        "latitude": 32.6859736,
+        "longitude": 13.1764996,
+        "id": 35
+    },
+    {
+        "name": [
+            {
+                "ace": "Tarabulus",
+                "af": "Tripoli",
+                "am": "ትሪፖሊ",
+                "an": "Tripoli",
+                "ar": "طرابلس",
+                "arz": "طرابلس",
+                "ast": "Trípoli",
+                "az": "Tripoli",
+                "azb": "طرابلس",
+                "ba": "Триполи",
+                "bcl": "Tripoli",
+                "be": "Трыпалі",
+                "be-tarask": "Трыпалі",
+                "bg": "Триполи",
+                "bn": "ত্রিপোলি",
+                "bo": "ཐི་རི་ཕོ་ལི",
+                "br": "Tripoli",
+                "bs": "Tripoli",
+                "ca": "Trípoli",
+                "ce": "ТӀарабулус",
+                "ckb": "تەرابلوس",
+                "cs": "Tripolis",
+                "cy": "Tripoli",
+                "da": "Tripoli",
+                "de": "Tripolis",
+                "el": "Τρίπολη",
+                "en": "Tripoli",
+                "eo": "Tripolo",
+                "es": "Trípoli",
+                "et": "Tripoli",
+                "eu": "Tripoli",
+                "ext": "Trípoli",
+                "fa": "طرابلس",
+                "fi": "Tripoli",
+                "fr": "Tripoli",
+                "fy": "Tripoly",
+                "ga": "Tripilí",
+                "gd": "Tripoli",
+                "gl": "Trípoli",
+                "grc": "Τρίπολις",
+                "ha": "Tripoli",
+                "he": "טריפולי",
+                "hi": "ताराबूलस",
+                "hif": "Tripoli",
+                "hr": "Tripoli",
+                "ht": "Tripoli",
+                "hu": "Tripoli",
+                "hy": "Տրիպոլի",
+                "hyw": "Թրիփոլի",
+                "ia": "Tripoli",
+                "id": "Tripoli",
+                "ie": "Tripolis",
+                "io": "Tripoli",
+                "is": "Trípólí",
+                "it": "Tripoli",
+                "ja": "トリポリ",
+                "jv": "Tripoli",
+                "ka": "ტრიპოლი",
+                "kab": "Ṭrables",
+                "kg": "Tripoli",
+                "kk": "Триполи",
+                "kl": "Tripoli",
+                "kn": "ಟ್ರಿಪೋಲಿ",
+                "ko": "트리폴리",
+                "ks": "طرابلس",
+                "ku": "Trablûs",
+                "kw": "Tripoli",
+                "ky": "Триполи",
+                "la": "Oea",
+                "lad": "Tripoli",
+                "lb": "Tripolis",
+                "lij": "Tripoli",
+                "lmo": "Tripul",
+                "lt": "Tripolis",
+                "lv": "Tripole",
+                "map-bms": "Tripoli",
+                "mg": "Tripoli",
+                "mk": "Триполи",
+                "ml": "ട്രിപ്പോളി",
+                "mn": "Триполи",
+                "mr": "त्रिपोली",
+                "mrj": "Триполи",
+                "ms": "Tripoli",
+                "mt": "Tripli",
+                "nan": "Tripoli",
+                "nb": "Tripoli",
+                "nl": "Tripoli",
+                "nn": "Tripoli",
+                "no": "Tripoli",
+                "nov": "Tripoli",
+                "nv": "Táaʼgokin",
+                "oc": "Trípol",
+                "os": "Триполи",
+                "pa": "ਤਰਾਬਲਸ",
+                "pap": "Tripoli",
+                "pl": "Trypolis",
+                "pms": "Trìpoli",
+                "pnb": "طرابلس",
+                "pnt": "Τρίπολις",
+                "ps": "ترابلس",
+                "pt": "Trípoli",
+                "qu": "Tripoli",
+                "ro": "Tripoli",
+                "roa-rup": "Tripoli",
+                "ru": "Триполи",
+                "sc": "Tripoli",
+                "scn": "Trìpuli",
+                "sco": "Tripoli",
+                "sh": "Tripoli",
+                "si": "ට්‍රිපොලි",
+                "simple": "Tripoli",
+                "sk": "Tripolis",
+                "sl": "Tripoli",
+                "sn": "Tripoli",
+                "so": "Triboli",
+                "sq": "Tripoli",
+                "sr": "Триполи",
+                "sv": "Tripoli",
+                "sw": "Tripoli",
+                "ta": "திரிப்பொலி",
+                "tg": "Триполи",
+                "th": "ตริโปลี",
+                "tk": "Tripoli",
+                "tl": "Tripoli",
+                "tr": "Trablus",
+                "tw": "Tripoli",
+                "udm": "Триполи",
+                "ug": "ترىپولى",
+                "uk": "Триполі",
+                "ur": "طرابلس",
+                "uz": "Tarobulus al-Gʻarb",
+                "vec": "Tripołi",
+                "vi": "Tripoli",
+                "vo": "Tarabulus",
+                "war": "Tripoli",
+                "wo": "Tripoli",
+                "yi": "טריפאלי",
+                "yo": "Tripoli",
+                "yue": "的黎波里",
+                "zh": "的黎波里",
+                "zu": "Tripoli"
+            }
+        ],
+        "latitude": 32.896672,
+        "longitude": 13.1777923,
+        "id": 36
+    },
+    {
+        "name": [
+            {
+                "ar": "العزيزية",
+                "ckb": "عەزیزیە",
+                "de": "Al ’Azīziyah",
+                "en": "Al Aziziya",
+                "es": "Al Aziziya",
+                "fr": "El Azizia",
+                "it": "El-Azizia"
+            }
+        ],
+        "latitude": 32.5330923,
+        "longitude": 13.0176242,
+        "id": 37
+    },
+    {
+        "name": [
+            {
+                "ar": "الرحيبات",
+                "ber": "ⴰⵎⵙⵉⵏ",
+                "de": "Rahibat",
+                "en": "Rahibat",
+                "fr": "Rahibat",
+                "ia": "Rahibat",
+                "it": "Rahebat"
+            }
+        ],
+        "latitude": 31.8836726,
+        "longitude": 11.8986142,
+        "id": 38
+    },
+    {
+        "name": [
+            {
+                "ar": "مصراتة",
+                "cs": "Misuráta",
+                "de": "Misrata",
+                "el": "Μισράτα",
+                "en": "Misrata",
+                "es": "Misurata",
+                "et": "Mişrātah",
+                "eu": "Misratah",
+                "fi": "Al Misratah",
+                "fr": "Misrata",
+                "it": "Misurata",
+                "kab": "Miṣrata",
+                "ro": "Misrata",
+                "ru": "Мисурата",
+                "sk": "Misuráta",
+                "zh": "米苏拉塔",
+                "zh-Hans": "米苏拉塔"
+            }
+        ],
+        "latitude": 32.3745923,
+        "longitude": 15.0905803,
+        "id": 39
+    },
+    {
+        "name": [
+            {
+                "ar": "التضامن"
+            }
+        ],
+        "latitude": 31.3893219,
+        "longitude": 12.8516516,
+        "id": 40
+    }
+    
 ]
