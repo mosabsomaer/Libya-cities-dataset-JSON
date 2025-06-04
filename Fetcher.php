@@ -61,11 +61,22 @@ class Fetcher {
             throw new \RuntimeException('Invalid input data structure');
         }
 
-        // Load existing data for all place types
+        // Load existing data for all place types and preserve metadata
         $existingData = [];
+        $existingMetadata = [];
         foreach (self::PLACE_TYPES as $placeType => $filePath) {
-            $existingData[$placeType] = file_exists($filePath) ? 
-                json_decode(file_get_contents($filePath), true) : [];
+            if (file_exists($filePath)) {
+                $fileContent = json_decode(file_get_contents($filePath), true);
+                $existingData[$placeType] = $fileContent['data'] ?? [];
+                $existingMetadata[$placeType] = $fileContent['metadata'] ?? [];
+            } else {
+                $existingData[$placeType] = [];
+                $existingMetadata[$placeType] = [
+                    'author' => 'Mosab Omaer',
+                    'source' => 'https://github.com/mosabsomaer/Libya-cities-dataset-JSON',
+                    'updated' => date('Y-m-d')
+                ];
+            }
         }
 
         // Group elements by place type
@@ -123,7 +134,17 @@ class Fetcher {
                 return $itemCopy;
             }, $result['data']);
             
-            file_put_contents($filePath, json_encode($dataForFile, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+            // Update metadata with current date
+            $metadata = $existingMetadata[$placeType];
+            $metadata['updated'] = date('Y-m-d');
+            
+            // Create the new structure with metadata
+            $fileStructure = [
+                'metadata' => $metadata,
+                'data' => $dataForFile
+            ];
+            
+            file_put_contents($filePath, json_encode($fileStructure, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
             
             // Add type field to all entries for all.json and combine
             $dataWithType = array_map(function($item) use ($placeType) {
@@ -142,8 +163,18 @@ class Fetcher {
             }
         }
 
-        // Save all places combined
-        file_put_contents(self::ALL_FILE, json_encode($allPlaces, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+        // Save all places combined with metadata
+        $allMetadata = [
+            'author' => 'Mosab Omaer',
+            'source' => 'https://github.com/mosabsomaer/Libya-cities-dataset-JSON',
+            'updated' => date('Y-m-d')
+        ];
+        $allFileStructure = [
+            'metadata' => $allMetadata,
+            'data' => $allPlaces
+        ];
+        
+        file_put_contents(self::ALL_FILE, json_encode($allFileStructure, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
         echo "All places combined: " . count($allPlaces) . " total entries saved\n";
     }
 

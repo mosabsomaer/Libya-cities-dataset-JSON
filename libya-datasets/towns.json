@@ -1,4 +1,10 @@
-[
+{
+    "metadata": {
+      "author": "Mosab",
+      "source": "https://github.com/mosabsomaer/Libya-cities-dataset-JSON",
+      "updated": "2025-06-04"
+    },
+    "data": [
     {
         "name": [
             {
@@ -2036,3 +2042,4 @@
         "id": 162
     }
 ]
+}

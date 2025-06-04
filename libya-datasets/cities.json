@@ -1,4 +1,10 @@
-[
+{
+    "metadata": {
+      "author": "Mosab",
+      "source": "https://github.com/mosabsomaer/Libya-cities-dataset-JSON",
+      "updated": "2025-06-04"
+    },
+    "data": [
     {
         "name": [
             {
@@ -1154,16 +1160,6 @@
         "latitude": 32.3745923,
         "longitude": 15.0905803,
         "id": 39
-    },
-    {
-        "name": [
-            {
-                "ar": "التضامن"
-            }
-        ],
-        "latitude": 31.3893219,
-        "longitude": 12.8516516,
-        "id": 40
     }
-    
 ]
+}
