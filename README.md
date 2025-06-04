@@ -50,7 +50,7 @@ php index.php
 ├── Fetcher.php           # Main processing class
 ├── index.php             # Application entry point
 ├── input.json            # Raw OpenStreetMap data (generated)
-├── libya/
+├── libya-datasets/
 │   ├── cities.json       # Processed cities data
 │   ├── towns.json        # Processed towns data
 │   ├── villages.json      # Processed villages data
