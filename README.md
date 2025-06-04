@@ -1,4 +1,4 @@
-# Libya Cities and Towns Data Processor
+# Libya cities dataset
 
 This repository contains a dataset of all Libyan cities, towns, villages, and hamlets. The dataset includes longitude and latitude coordinates, as well as localized names for each location.
 
